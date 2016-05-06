@@ -2,12 +2,12 @@
 
 ## Introduction
 
-Leaf is a open Machine Learning Framework for hackers to build classical, deep
+Leaf is an open Machine Learning Framework for hackers to build classical, deep
 or hybrid machine learning applications. It was inspired by the brilliant people
-behind TensorFlow, Torch, Caffe, Rust and numerous research papers and brings
+behind TensorFlow, Torch, Caffe, Rust and numerous research papers. It brings
 modularity, performance and portability to deep learning.
 
-Leaf has one of the simplest APIs, is lean and tries to introduce minimal
+Leaf has one of the simplest APIs, is lean, and tries to introduce minimal
 technical debt to your stack.
 
 See the [Leaf - Machine Learning for Hackers][leaf-book] book for more.
@@ -26,11 +26,11 @@ machines without one. Run it with OpenCL or CUDA. Credit goes to
 [Collenchyma][collenchyma] and Rust.
 
 Leaf is part of the [Autumn][autumn] Machine Intelligence Platform, which is
-working on making AI algorithms 100x more computational efficient.
+working on improving the computational efficiency of AI algorithms by two orders of magnitude.
 
 We see Leaf as the core of constructing high-performance machine intelligence
 applications. Leaf's design makes it easy to publish independent modules to make
-e.g. deep reinforcement learning, visualization and monitoring, network
+deep reinforcement learning, visualization and monitoring, network
 distribution, [automated preprocessing][cuticula] or scaleable production
 deployment easily accessible for everyone.
 
@@ -46,7 +46,7 @@ deployment easily accessible for everyone.
 
 > Disclaimer: Leaf is currently in an early stage of development.
 > If you are experiencing any bugs with features that have been
-> implemented, feel free to create a issue.
+> implemented, feel free to create an issue.
 
 ## Getting Started
 
@@ -59,13 +59,13 @@ For additional information see the [Rust API Documentation][documentation] or th
 Or start by running the **Leaf examples**.
 
 We are providing a [Leaf examples repository][leaf-examples], where we and
-others publish executable machine learning models build with Leaf. It features
+others publish executable machine learning models built with Leaf. It features
 a CLI for easy usage and has a detailed guide in the [project
 README.md][leaf-examples].
 
 Leaf comes with an examples directory as well, which features popular neural
 networks (e.g. Alexnet, Overfeat, VGG). To run them on your machine, just follow
-the install guide, clone this repoistory and then run
+the install guide, clone this repository and then run
 
 ```bash
 # The examples currently require CUDA support.
@@ -76,10 +76,10 @@ cargo run --release --no-default-features --features cuda --example benchmarks a
 
 ### Installation
 
-> Leaf is build in [Rust][rust]. If you are new to Rust you can install Rust as detailed [here][rust_download].
+> Leaf is built in [Rust][rust]. If you are new to Rust you can install Rust as detailed [here][rust_download].
 We also recommend taking a look at the [official Rust - Getting Started Guide][rust_getting_started].
 
-To start building a machine learning application (Rust only for now. Wrappers are welcome) and you are using Cargo, just add Leaf to your `Cargo.toml`:
+To start building a machine learning application (Rust only for now; wrappers are welcome) and you are using Cargo, just add Leaf to your `Cargo.toml`:
 
 ```toml
 [dependencies]
@@ -112,9 +112,9 @@ If you want to start hacking on Leaf (e.g.
   [adding a new `Layer`](http://autumnai.com/leaf/book/create-new-layer.html))
 you should start with forking and cloning the repository.
 
-We have more instructions to help you get started in the [CONTRIBUTING.md][contributing].
+We have more instructions to help you get started in [CONTRIBUTING.md][contributing].
 
-We also has a near real-time collaboration culture, which happens
+We also have a near real-time collaboration culture, which happens
 here on Github and on the [Leaf Gitter Channel][gitter-leaf].
 
 > Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as below, without any additional terms or conditions.
@@ -141,7 +141,7 @@ and extensible as possible. More helpful crates you can use with Leaf:
 - With a bit of luck, you can find us online on the #rust-machine-learning IRC at irc.mozilla.org,
 - but we are always approachable on [Gitter/Leaf][gitter-leaf]
 - For bugs and feature request, you can create a [Github issue][leaf-issue]
-- For more private matters, send us email straight to our inbox: developers@autumnai.com
+- For more private matters, send us email: developers@autumnai.com
 - Refer to [Autumn][autumn] for more information
 
 [leaf-issue]: https://github.com/autumnai/leaf/issues
